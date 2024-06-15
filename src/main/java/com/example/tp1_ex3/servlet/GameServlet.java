@@ -1,5 +1,7 @@
-package com.example.tp1_ex3.servlet;
 
+
+
+package com.example.tp1_ex3.servlet;
 
 import com.example.tp1_ex3.helper.GameContextManagement;
 import com.example.tp1_ex3.model.Game;
@@ -13,6 +15,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ *
+ * @author Salah rch
+ */
 
 @WebServlet("/Game")
 public class GameServlet extends HttpServlet {
@@ -82,3 +89,5 @@ public class GameServlet extends HttpServlet {
         getServletContext().getRequestDispatcher("/WEB-INF/views/Game.jsp").forward(request,response);
     }
 }
+
+

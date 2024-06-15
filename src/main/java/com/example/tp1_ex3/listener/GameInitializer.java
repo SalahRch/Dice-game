@@ -17,6 +17,7 @@ public class GameInitializer implements ServletContextListener {
 
     public GameInitializer(){
 
+
     }
 
     /**

@@ -19,8 +19,7 @@ public class LeaderboardServlet extends HttpServlet {
         getServletContext().getRequestDispatcher("/WEB-INF/views/Leaderboard.jsp").forward(request,response);
     }
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);
     }
 
